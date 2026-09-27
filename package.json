@@ -1,0 +1,27 @@
+{
+  "name": "zonepin",
+  "version": "1.0.0",
+  "description": "Pin one time zone to the macOS menu bar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALHDLIOX/zonepin.git"
+  },
+  "homepage": "https://github.com/ALHDLIOX/zonepin#readme",
+  "type": "module",
+  "bin": {
+    "zonepin": "bin/zonepin.mjs"
+  },
+  "files": [
+    "app/",
+    "bin/",
+    "scripts/build.sh",
+    "README.md",
+    "LICENSE"
+  ],
+  "os": ["darwin"],
+  "cpu": ["arm64", "x64"],
+  "engines": {
+    "node": ">=18"
+  }
+}
