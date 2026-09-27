@@ -1,8 +1,10 @@
 # ZonePin
 
-![ZonePin icon](app/Resources/ZonePinIcon.png)
+<img src="app/Resources/ZonePinIcon.png" alt="ZonePin icon" width="96">
 
 A small macOS menu bar clock that pins **one selected time zone** to your menu bar. It starts with `Asia/Shanghai`, shows time as `Sun Sep 27 02:31`, and never changes the Mac's system time zone. The selected time zone is saved locally. Supports Apple silicon and Intel Macs running macOS 13 or later.
+
+ZonePin 是一个 macOS 菜单栏时钟：默认显示北京时间，可搜索切换时区，不修改系统时区。
 
 ## Install from GitHub with Node.js
 
