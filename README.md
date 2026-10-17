@@ -16,8 +16,6 @@ npx --yes github:ALHDLIOX/zonepin
 
 The command installs `~/Applications/ZonePin.app` and opens it. To update, choose **Quit ZonePin** from its menu, then run the command again. This GitHub command works independently of an npm registry release; `npx zonepin` will work only after the package is published there. The app does not appear in the Dock.
 
-If you previously installed **World Menu Clock**, turn off its **Launch at Login** option and quit it before opening ZonePin. ZonePin retains its saved time-zone selection.
-
 ## Build from a clone
 
 ```sh
@@ -33,6 +31,13 @@ open ~/Applications/ZonePin.app
 Click the menu bar time to choose a time zone, toggle **Launch at Login**, or quit. If the menu bar is full, especially around a MacBook camera notch, hide other menu bar items or Command-drag the clock toward the right. ZonePin cannot change the Lock Screen's time zone independently of the system time zone. [More usage details](docs/usage.md).
 
 The native app is ad-hoc signed when built locally. An optional Developer ID signing and notarization script is included for a future prebuilt release; it requires an Apple Developer Program membership. The source-build installation above does not use that script.
+
+## Uninstall
+
+1. Click the menu bar time and turn off **Launch at Login**, so no login item is left behind.
+2. Choose **Quit ZonePin**.
+3. Delete `~/Applications/ZonePin.app`.
+4. Optional: run `defaults delete com.epsaliox.WorldMenuClock` to clear the saved time zone, menu bar position, and Launch at Login preference.
 
 ## License
 
