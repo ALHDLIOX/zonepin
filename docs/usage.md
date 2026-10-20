@@ -10,7 +10,9 @@ Click the menu bar time to search and choose a time zone. The choice is saved im
 
 If the time is hidden on a MacBook with a camera notch, free some menu bar space, then Command-drag ZonePin's time toward the right. Its status item position is saved. The system clock can be set to a small analog face using **System Settings → Menu Bar → Clock Options → Analog** on macOS 26; on other versions, search System Settings for **Clock Options**. To show Beijing time on the desktop, add Apple's **City Clock** widget and choose Beijing or Shanghai. The Lock Screen clock still uses the system time zone.
 
-For people who previously tested **World Menu Clock**, quit that app and turn off its **Launch at Login** setting before starting ZonePin to avoid two menu bar clocks. ZonePin retains the same bundle identifier and saved preference keys so its time-zone choice and menu bar position can carry over.
+## Migrating from World Menu Clock
+
+If you previously installed or tested **World Menu Clock**, turn off its **Launch at Login** option and quit it before opening ZonePin, to avoid two menu bar clocks. ZonePin retains the same bundle identifier and saved preference keys, so its time-zone selection and menu bar position carry over.
 
 ## Build from source
 
